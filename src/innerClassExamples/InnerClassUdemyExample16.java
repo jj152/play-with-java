@@ -5,12 +5,10 @@ class Outer16 {
  
     static {
         class Inner16 {
-			/*
-			 * Inner16() { System.out.println("HELLO"); }
-			 */
-        	static {
-        		System.out.println("HELLO");
-        	}
+			
+			 Inner16() { System.out.println("HELLO1"); }
+			 
+        	
         	{
         		System.out.println("HELLO");
         	}

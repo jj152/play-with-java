@@ -21,10 +21,10 @@ abstract class Shape {
 public class InnerClassUdemyExample33 {
     public static void main(String[] args) {
 		/*
-		 * Shape shape = new Shape() {
-		 * 
-		 * @Override void draw() { System.out.println("Drawing a " + getType()); } };
-		 * shape.draw();
+		 Shape shape = new Shape() {
+		  
+		  @Override void draw() { System.out.println("Drawing a " + getType()); } };
+		 shape.draw();
 		 */
     }
 }

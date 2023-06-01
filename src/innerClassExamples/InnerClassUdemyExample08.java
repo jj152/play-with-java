@@ -6,8 +6,9 @@ class RanaOuter {
     }
  
     class RanaInner {
-        public static void m1() {
-            System.out.println("Bar : m1()");
+        //public static void m1() { // compilation error : The method m1 cannot be declared static; static methods can only be declared in a static or top level type
+    	public void m1() { // This is the solution
+        	System.out.println("Bar : m1()");
         }
     }
 }

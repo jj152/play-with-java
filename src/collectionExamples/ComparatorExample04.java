@@ -1,6 +1,7 @@
 package collectionExamples;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
@@ -39,7 +40,17 @@ public class ComparatorExample04 {
 		persons.add(new Person("second", 26));
 		persons.add(new Person("first", 26));
 		persons.add(new Person("second", 37));
+		persons.add(new Person("third", 26));
+		persons.add(new Person("fourth", 17));
+		persons.add(new Person("second", 26));
 		persons.sort(Comparator.comparing(Person::getAge).thenComparing(Person::getName));
 		System.out.println(persons);
+		System.out.println("-------- ------ -------");
+		persons.sort(Comparator.comparing(Person::getAge).reversed().thenComparing(Person::getName));
+		System.out.println(persons);
+		System.out.println("-------- ------ -------");
+		persons.sort(Comparator.comparingInt(Person::getAge).reversed().thenComparing(Person::getName));
+		System.out.println(persons);
+		System.out.println("-------- ------ -------");
 	}
 }
