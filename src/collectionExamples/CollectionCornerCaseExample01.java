@@ -1,6 +1,7 @@
 package collectionExamples;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
@@ -10,7 +11,7 @@ public class CollectionCornerCaseExample01 {
 
 	public static void main(String[] args) {
 		Comparator<String> cso = String::compareTo;
-		List<String> str =List.of("ccc","bb","eeeee","a","dddd");
+		List<String> str =Arrays.asList("ccc","bb","eeeee","a","dddd");
 		var tree = new TreeSet<>(cso);
 		tree.addAll(str);
 		System.out.println(tree);

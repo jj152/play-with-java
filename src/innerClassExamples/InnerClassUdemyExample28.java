@@ -28,9 +28,9 @@ public class InnerClassUdemyExample28 {
          points.add(new Point(2, 2));
  
 			/*
-			 * Collections.sort(points, new Comparator<Point>() {
-			 * 
-			 * @Override public int compare(Point o1, Point o2) { return o1.x - o2.x; } });
+			  Collections.sort(points, new Comparator<Point>() {
+			  
+			  @Override public int compare(Point o1, Point o2) { return o1.x - o2.x; } });
 			 */
      }
 }

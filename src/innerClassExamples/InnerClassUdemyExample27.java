@@ -12,12 +12,14 @@ public class InnerClassUdemyExample27 {
         /*INSERT*/
     	//printPrice(null);
     	printPrice(new Sellable() {
-			
+
 			@Override
 			public double getPrice() {
 				// TODO Auto-generated method stub
 				return 0;
 			}
+			
+			
 		});
     }
 }

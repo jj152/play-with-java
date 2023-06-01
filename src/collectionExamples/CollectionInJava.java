@@ -2,13 +2,12 @@ package collectionExamples;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
 
 public class CollectionInJava {
 
 	public static void main(String[] args) {
-		List<String> alphabet = List.of("alfa", "bravo", "charlie", "delta", "ram", "shyam", "xfdf", "yyyyy");
+		//List<String> alphabet = List.of("alfa", "bravo", "charlie", "delta", "ram", "shyam", "xfdf", "yyyyy");
+		
 		/*
 		 * for(Iterator<String> it = alphabet.iterator();it.hasNext();) { String s =
 		 * it.next(); if(s.startsWith("a")) it.remove(); }

@@ -54,7 +54,7 @@ public class Solution {
         }
     }
 
-class Result {
+static class Result {
 
     /*
      * Complete the 'insertNodeAtPosition' function below.

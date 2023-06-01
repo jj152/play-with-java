@@ -36,8 +36,8 @@ public class InnerClassUdemyExample29 {
          points.add(new Point29(2, 2));
  
 			/*
-			 * Collections.sort(points, new Comparator<Point29>() { public int
-			 * compareTo(Point29 o1, Point29 o2) { return o1.getX() - o2.getX(); } });
+			  Collections.sort(points, new Comparator<Point29>() { public int
+			  compareTo(Point29 o1, Point29 o2) { return o1.getX() - o2.getX(); } });
 			 */
  
          System.out.println(points);
